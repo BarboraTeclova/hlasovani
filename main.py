@@ -10,7 +10,12 @@ radio.set_group(69)
 # enabled 1/0
 #value = Math.constrain(value, 1, 10)
 #char = string.from_char_code(65)
-#
+
+#    cislo = 0
+#    pocet = 0
+#    radio.set_group(69)
+#    pocet = 0
+#    cislo = 0
 
 #def on_button_pressed_a():
 #    global poradi
@@ -79,11 +84,3 @@ radio.set_group(69)
 #        cislo += 1
 #        basic.show_number(cislo)
 #    input.on_button_pressed(Button.B, on_button_pressed_b)
-
-
-#    cislo = 0
-#    pocet = 0
-#    radio.set_group(69)
-#    pocet = 0
-#    cislo = 0
-#   basic.show_number(cislo)
