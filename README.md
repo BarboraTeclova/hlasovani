@@ -29,3 +29,10 @@ Tento obrázek se může aktualizovat až za několik minut.
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+#klient "ví", že může nebo nemůže hlasovat
+#hlas lze změnit (např. z C na B) když je hlasování povoleno
+#započítává se pouze poslední odeslaný hlas (v př. o řádek výše to je B)
+#klient indikuje (LEDky nebo speaker) serverem úspěšně zaznamenaný hlas
+#ze serveru lze hlasování povolit/zakázat, vynulovat hlasování
+#server "nějak" zobrazí výsledky (klidně do konzole)
